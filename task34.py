@@ -13,14 +13,10 @@ volwes = 'аеёиоуыэюя'
 for i in poem:
     for j in i:
         if j in volwes:
-            count+=1
+            count += 1
     list1.append(count)
     count = 0
 if len(set(list1)) == 1:
     print('Парам пам-пам')
 else:
     print('Пам парам')
-
-
-
-
